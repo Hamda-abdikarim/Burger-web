@@ -125,6 +125,7 @@ animation: show 5s ease-in-out 1;
     transition: var(--mainTransition);
     color: var(--mainDark);
     margin-top: 2re,;
+ 
 
 
 }
@@ -205,7 +206,7 @@ animation: show 5s ease-in-out 1;
 
 /* specials */
 .specials{
-    background: var(--mainGrey);
+    background-color: var(--mainGrey);
 }
 
 
@@ -276,6 +277,7 @@ animation: show 5s ease-in-out 1;
   background-color: var(--mainWhite);
 }
 
+
 .about-img,
 .about-info {
   padding: 2rem 0;
@@ -315,7 +317,7 @@ animation: show 5s ease-in-out 1;
 
 /* products */
 .products{
-    background: var(--mainDark);
+  background-color: var(--mainDark);
 }
 .product-info, .product-inventory{
     padding: 2rem 0;
@@ -379,15 +381,27 @@ max-width: 20rem;
     }
 
     .product{
+      float: left;
+      width: 33.3%;
  padding: 1.5rem 1rem 0rem 1rem;
     }
 }
 /* end of products */
 
 /* contact */
+
 .contact {
+  background-color: var(--mainWhite);
   padding: 2rem;
  
+}
+
+.main-btn:hover{
+  opacity: 0.7;
+outline: 0.2rem solid var(--secondaryColor);
+outline-offset: 0.4rem;
+transition: var(--mainTransition);
+color: var(--mainWhite);
 }
 .contact-item{
   margin-bottom: 3rem;
@@ -433,9 +447,9 @@ padding: 3rem 0;
 
 /* footer */
 .footer {
-  background: var(--mainWhite);
-  text-align: center;
  
+  text-align: center;
+ background-color: var(--mainDark);
 }
 .social-icon {
   color: var(--mainWhite);
@@ -457,6 +471,7 @@ padding: 3rem 0;
 
 .contact-item .contact-text{
   text-transform: lowercase;
+ 
 
 }
 
